@@ -46,6 +46,8 @@ Formatters for collections of text:
 - **Join**: Takes one argument, the glue to join the collection together with. Glue is text, and is inserted between each collection peice.
   - _Example_: `[ "t", "e", "s", "t" ]` -> `join("|")` -> `t|e|s|t`
 
+To remove any formatters in the chain, click the **x** above the formatter in question. Note that all subsequent formatters will also be deleted.
+
 Once a formatter chain is finished, click **Set Formatter Chain** to add the formatter chain to the **Content Key**. **Save/Save And Return** has no effect on content key formatters.
 
 ### Format Type
